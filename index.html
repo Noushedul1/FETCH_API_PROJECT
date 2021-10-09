@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fetch API Project</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        #getTxtdata{
+            background: #ddd;
+            padding: 10px;
+            margin: 0 10px 0 10px;
+        }
+        .innerJson{
+            background: #ddd;
+        }
+        .innerPlaceholder{
+            background: #ddd;
+            padding: 10px;
+            margin: 10px;
+        }
+        ul li{
+            list-style-type: none;
+        }
+        #addPosts{
+            padding: 10px;
+            margin: 0 auto;
+            background: #ddd;
+            margin: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div style="margin: 10px;text-align: center;">
+        <button id="getTxt">GetTxt</button>
+        <button id="getJson">GetJson</button>
+        <button id="getJsonplaceholder">Json Placeholder</button>
+    </div>
+    <form id="addPosts">
+        <div>
+            <input type="text" placeholder="title" id="title">
+        </div>
+        <div>
+            <input type="text" placeholder="body" id="body">
+        </div>
+        <div>
+            <input type="submit" value="Submit">
+        </div>
+    </form>
+    <div id="formPostvalue"></div>
+    <div id="getTxtdata"></div>
+    <div id="getJsondata"></div>
+    <div id="getJsonplaceholderData"></div>
+    <script src="app.js"></script>
+</body>
+</html>
